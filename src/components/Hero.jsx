@@ -40,7 +40,7 @@ text:"Pet Supplies"
 
   return (
     <>
-      <div className="mx-auto container p-10 flex items-center justify-center flex-col gap-5  bg-[#F7FDFA] m   max-w-[1240px] h-[1300px] md:h-[1000px] ">
+      <div className="mx-auto container p-10 flex items-center justify-center flex-col gap-5  bg-[#F7FDFA] m   max-w-[1240px] h-[1200px] md:h-[500px] ">
       <h1 className="text-2xl mx-[120px] font-semibold">Essentials delivered to your doorstep</h1>
        <div className="icons-container flex items-center justify-center mx-[120px] flex-wrap md:flex-nowrap ">
       {data.map((url)=>(

@@ -25,7 +25,7 @@ export default function Top() {
     
       <div className="auto mx-[140px] p-6 text-center">
 <h1 className='text-3xl md:text-3xl font-bold mx-auto my-10 md:my-6' >Top picks for you</h1>
-        <div className="icons-container flex items-center justify-center gap-2 md:mx-auto flex-col  md:flex-nowrap  ">
+        <div className="icons-container flex items-center justify-center gap-2 md:mx-auto flex-col md:flex-row md:flex-nowrap  ">
           
       {data.map((url)=>(
         <>
