@@ -71,6 +71,7 @@ export default function Last() {
 
         </div>
       </div>
+      <p className="text-white font-bold">made with love by Bivek Singha</p>
     </div>
   );
 }
