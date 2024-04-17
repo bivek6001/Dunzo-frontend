@@ -25,7 +25,7 @@ export default function Top() {
     
       <div className="auto mx-[140px] p-6">
 <h1 className='text-3xl font-semibold mx-auto ' >Top picks for you</h1>
-        <div className="icons-container flex items-center justify-center my-7 mx-auto">
+        <div className="icons-container flex items-center justify-center my-7 mx-auto flex-wrap md:flex-nowrap">
           
       {data.map((url)=>(
         <>

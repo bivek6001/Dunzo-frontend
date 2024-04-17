@@ -3,7 +3,7 @@ import React from "react";
 export default function Last() {
   return (
     <div className=" bg-[#171E30]">
-      <div className="container mx-auto max-w-[1000px] flex items-center justify-between">
+      <div className="container mx-auto max-w-[1000px] flex items-center flex-col md:flex-row justify-between">
         <div className="right">
           <div className="img">
             <img className="w-[7-px] h-[70px]"

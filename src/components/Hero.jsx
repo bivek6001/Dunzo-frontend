@@ -42,7 +42,7 @@ text:"Pet Supplies"
     <>
       <div className="mx-auto container p-10   bg-[#F7FDFA] m   max-w-[1240px] h-[500px] ">
       <h1 className="text-2xl mx-[120px] font-semibold">Essentials delivered to your doorstep</h1>
-       <div className="icons-container flex items-center justify-center mx-[120px] ">
+       <div className="icons-container flex items-center justify-center mx-[120px] flex-wrap md:flex-nowrap ">
       {data.map((url)=>(
         <>
        

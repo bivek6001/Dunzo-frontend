@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <div className='max-w-[1260px] flex items-center justify-evenly h-[72px] sticky top-0 z-40 bg-white '>
         <div className="left-container flex items-center ">
-          <div className="logo mx-3">
+          <div className="logo  md:inline mx-3">
           <img className='w-[100px]' src="https://resources.dunzo.com/web-assets/prod/_next/static/images/logo-7b2b540792556466133aea6e7c6ae513.png?tr=w-244,h-56,cm-pad_resize" alt="" />
           </div>
           <div className="location-container font-medium flex items-center justify-center mx-6 ">
@@ -17,17 +17,17 @@ export default function Header() {
           </div>
         </div>
         <div className="right-container flex items-center  font-medium justify-evenly gap-7 ">
-            <div className="partners text-sm ">
+            <div className="partners hidden  md:inline text-sm ">
                 
 Dunzo for Partners
             </div>
-            <div className="business text-sm">
+            <div className="business hidden  md:inline  text-sm">
             Business with Dunzo
             <RxCaretDown style={{display:"inline"}}/>
 
 
             </div>
-            <div className="search text-sm">
+            <div className="search hidden md:inline text-sm">
             <CiSearch style={{fontWeight:700,fontSize:26}}/>
             Search
 
