@@ -2,10 +2,10 @@ import React from "react";
 
 export default function Last() {
   return (
-    <div className=" bg-[#171E30]">
+    <div className=" bg-[#171E30] p-5">
       <div className="container mx-auto max-w-[1000px] flex items-center flex-col md:flex-row justify-between">
         <div className="right">
-          <div className="img">
+          <div className="img my-4 md:my-0">
             <img className="w-[7-px] h-[70px]"
               src="https://resources.dunzo.com/web-assets/prod/_next/static/images/logo-footer-dbc7c51cccb1c5e6b2210740296729e3.png?tr=w-140,h-140,cm-pad_resize"
               alt=""

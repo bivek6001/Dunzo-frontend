@@ -24,13 +24,13 @@ export default function Top() {
 
     
       <div className="auto mx-[140px] p-6 text-center">
-<h1 className='text-2xl md:text-3xl font-semibold mx-auto my-6' >Top picks for you</h1>
-        <div className="icons-container flex items-center justify-center gap-2 mx-auto flex-wrap md:flex-nowrap  ">
+<h1 className='text-3xl md:text-3xl font-bold mx-auto my-10 md:my-6' >Top picks for you</h1>
+        <div className="icons-container flex items-center justify-center gap-2 md:mx-auto flex-col  md:flex-nowrap  ">
           
       {data.map((url)=>(
         <>
        
-        <div className="rounded-3xl w-[244px] h-[180px] mx-[16px]">
+        <div className="rounded-3xl w-[300px] md:w-[244px] md:h-[180px] mx-[16px]">
         <img className="rounded-xl w-[244px] h-[180px] " src={url.url} alt="" key={url.id} />
         </div>
      
