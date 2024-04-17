@@ -40,13 +40,13 @@ text:"Pet Supplies"
 
   return (
     <>
-      <div className="mx-auto container p-10   bg-[#F7FDFA] m   max-w-[1240px] h-[500px] ">
+      <div className="mx-auto container p-10 flex items-center justify-center flex-col gap-5  bg-[#F7FDFA] m   max-w-[1240px] h-[1200px] md:h-[1000px] ">
       <h1 className="text-2xl mx-[120px] font-semibold">Essentials delivered to your doorstep</h1>
        <div className="icons-container flex items-center justify-center mx-[120px] flex-wrap md:flex-nowrap ">
       {data.map((url)=>(
         <>
        
-        <div className="rounded-3xl w-[244px] h-[180px] mx-[16px]">
+        <div className="rounded-3xl w-[244px] h-[180px] mx-[16px] my-3">
         <img className="rounded-xl w-[244px] h-[180px] " src={url.url} alt="" key={url.id} />
         </div>
      
@@ -59,7 +59,7 @@ text:"Pet Supplies"
       ))}
       </div>
 
-      <div className="boxes flex justify-start gap-4 mx-[120px] h-[107px] w-[158px] bg-white my-9 ">
+      <div className="boxes flex flex-row items-center justify-center gap-2 mx-[120px] h-[107px] w-[158px] bg-white my-9 ">
             {
                 boxData.map((box)=>(
                     <div className="bg-white p-7 shadow-lg h-[140px] w-[380px] rounded">

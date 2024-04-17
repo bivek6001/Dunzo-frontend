@@ -23,9 +23,9 @@ export default function Top() {
     <div className='max-w-[1240px] mx-auto p-10' >
 
     
-      <div className="auto mx-[140px] p-6">
-<h1 className='text-3xl font-semibold mx-auto ' >Top picks for you</h1>
-        <div className="icons-container flex items-center justify-center my-7 mx-auto flex-wrap md:flex-nowrap">
+      <div className="auto mx-[140px] p-6 text-center">
+<h1 className='text-2xl md:text-3xl font-semibold mx-auto my-6' >Top picks for you</h1>
+        <div className="icons-container flex items-center justify-center gap-2 mx-auto flex-wrap md:flex-nowrap  ">
           
       {data.map((url)=>(
         <>
